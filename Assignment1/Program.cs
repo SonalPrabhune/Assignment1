@@ -52,7 +52,7 @@ if (question > 0 && question <= 6)
             //The "FOR" statement has three parts that control how the statement works. 
             //The first part is the initializer (int i=0), 
             //The second part is the condition (i<n),
-            //The thrid part is the iterator (i++).
+            //The third part is the iterator (i++).
 
         //Question 2:
         //Rocky is not aware of the inbuilt functions to split and reverse a string.
