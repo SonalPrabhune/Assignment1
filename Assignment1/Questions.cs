@@ -115,7 +115,7 @@ namespace Assignment1
             return result;
         }
 // Question 5  Rohit Solution //
-        /**/       Console.WriteLine("Running Question 5");
+        /*       Console.WriteLine("Running Question 5");
             {
                 int[] array1 = new int[] { 2, 5, 5, 2 }; //array1 and array2 is the input,we are declaring
                 int[] array2 = new int[] { 5, 5 };
@@ -127,8 +127,7 @@ namespace Assignment1
 
                 Console.Write(string.Join(',', result));
 
-            } /**/ 
-
+            }*/
         //Question 6
         public static bool ContainsDuplicate(char[] arr, int k)
         {
@@ -159,8 +158,8 @@ namespace Assignment1
 }
 
 //Question 6: Rohit Solution //
-/**/ public bool ContainsDuplicate(char[] arr, int k) 
-{
+// public bool ContainsDuplicate(char[] arr, int k) //
+/*{
       Dictionary<char,char> memo = new Dictionary<char, char>();
       for (int i = 0; i < arr.length; i++)
       {
@@ -182,4 +181,4 @@ namespace Assignment1
       }
       return false;
     }
-}  /**/
+}*/
