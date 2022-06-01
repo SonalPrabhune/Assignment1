@@ -157,3 +157,29 @@ namespace Assignment1
         }
     }
 }
+
+//Question 6: Rohit Solution //
+// public bool ContainsDuplicate(char[] arr, int k) 
+{
+      Dictionary<char,char> memo = new Dictionary<char, char>();
+      for (int i = 0; i < arr.length; i++)
+      {
+        if (memo.ContainsKey(nums[i]))
+        {
+          if (i - memo[nums[i]] <= k)
+          {
+            return true;
+          }
+          else
+          { 
+            memo[nums[i]] = i;
+          }
+        }
+        else
+        {
+          memo.Add(nums[i], i);
+        }
+      }
+      return false;
+    }
+}  //
