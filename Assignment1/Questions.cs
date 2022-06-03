@@ -68,7 +68,7 @@ namespace Assignment1
         }
         
         
-        // Question 3: Rohit solution //
+        //Question 3: Rohit solution//
                   /*   public static int minSum (int[] arr)
                         {
                         int sum = arr[0], prev = arr[0], n = arr.length;
