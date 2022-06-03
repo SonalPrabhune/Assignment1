@@ -71,7 +71,7 @@ if (question > 0 && question <= 6)
             }
             else
             {
-                Console.WriteLine("Reverssed string is ...");
+                Console.WriteLine("Reversed string is ...");
                 Console.WriteLine(Assignment1.Questions.StringReverse(s));
             }
             break;
