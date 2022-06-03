@@ -204,4 +204,22 @@ namespace Assignment1
       }
       return false;
     }
-}*/
+}
+
+//Roger's solution to Ques 6.
+//Alternate method for solving if there are duplicate values 
+
+            HashSet<char> set = new HashSet<char>();
+
+            for(int i=0; i<arr.Length; i++)
+            {
+                if(set.Contains(arr[i]))
+                    return true;
+
+                set.Add(arr[i]);
+
+                if(i>=k)
+                    set.Remove(arr[i-k]);
+            }
+            return false;
+            */
