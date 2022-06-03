@@ -4,6 +4,7 @@ Console.WriteLine("Select a number from 1 to 6 to run the questions");
 int.TryParse(Console.ReadLine(), out question);
 if (question > 0 && question <= 6)
 {
+    //Switch case for each question
     switch (question) {
         //Question 1:
         //Professor Agrawal receives an array of integer points sorted in ascending order, 
