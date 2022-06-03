@@ -8,7 +8,7 @@ namespace Assignment1
 {
     public static class Questions
     {
-        //Question 1
+        //Question 1 - find the initial and final index of a given target point’s value.
         public static List<int> TargetRange(int[] marks, int target)
         {
             List<int> result = new List<int>();
@@ -29,7 +29,7 @@ namespace Assignment1
             return result;
         }
 
-        //Question 2
+        //Question 2 - Create your own split and reverse function.
         public static string StringReverse(string s)
         {
             StringBuilder sb = new StringBuilder();
@@ -46,7 +46,7 @@ namespace Assignment1
             return sb.ToString();
         }
 
-        //Question 3
+        //Question 3 - make the array elements distinct by increasing each value as needed, while minimizing the array sum. 
         public static int MinSum(int[] arr)
         {
             int sum = arr[0];
@@ -90,7 +90,7 @@ namespace Assignment1
                 return sum;
             } */
 
-        //Question 4
+        //Question 4 - sort the given string in decreasing order of frequency of occurrence of each character.
         public static string FreqSort(string s)
         {
             StringBuilder sb = new StringBuilder();
@@ -123,7 +123,7 @@ namespace Assignment1
             return sb.ToString();
         }
 
-        //Question 5
+        //Question 5 - Given two arrays, write a function to compute their intersection.
         public static List<int> Intersect1(int[] nums1, int[] nums2)
         {
             List<int> result = new List<int>();
