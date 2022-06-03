@@ -66,6 +66,29 @@ namespace Assignment1
             return sum;
 
         }
+        
+        
+        // Question 3: Rohit solution //
+                  /*   public static int minSum (int[] arr)
+                        {
+                        int sum = arr[0], prev = arr[0], n = arr.length;
+
+                for (int i = 1; i < n; i++)
+                {
+                    if (arr[i] <= prev)
+                    {
+                        prev = prev + 1;
+                        sum = sum + prev;
+                    }
+                    else
+                    {
+                        sum = sum + arr[i];
+                        prev = arr[i];
+                    }
+                }
+
+                return sum;
+            } */
 
         //Question 4
         public static string FreqSort(string s)
